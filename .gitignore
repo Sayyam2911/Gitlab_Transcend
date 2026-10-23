@@ -1,0 +1,17 @@
+# Local dependencies, caches, and build outputs
+.setup-cache/
+.tool-cache/
+node_modules/
+build/
+dist/
+coverage/
+*.log
+
+# Credentials and machine-specific configuration
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+.DS_Store
+Thumbs.db
